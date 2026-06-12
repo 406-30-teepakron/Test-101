@@ -15,3 +15,4 @@ st.write("**โรงเรียน:** ยุพราชวิทยาลั�
 # ส่วนปุ่มกดแสดงความรู้สึก
 if st.button("คลิกบอกความรู้สึกกับการเขียนเว็บครั้งแรก"):
     st.success(f"ว้าว! สนุกและง่ายกว่าที่คิดมาก ๆ! 🎉")
+st.link_button("Free cookie", "https://www.youtube.com/watch?v=dQw4w9WgXcQ")
