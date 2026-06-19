@@ -17,3 +17,17 @@ if st.button("คลิกบอกความรู้สึกกับกา
     st.success(f"ว้าว! สนุกและง่ายกว่าที่คิดมาก ๆ! 🎉")
 st.divider()
 st.link_button("Free cookie", "https://www.youtube.com/watch?v=dQw4w9WgXcQ")
+
+def page2():
+    st.title("Second page")
+
+pg = st.navigation([
+    st.Page("page1.py", title="First page", icon="🔥"),
+    st.Page(page2, title="Second page", icon=":material/favorite:"),
+    st.Page(
+        "https://docs.streamlit.io",
+        title="Streamlit Docs",
+        icon=":material/open_in_new:"
+    ),
+])
+pg.run()
